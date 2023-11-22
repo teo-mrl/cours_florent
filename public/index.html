@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma page Express</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Bienvenue sur mon site Express</h1>
+    </header>
+    <div class="container">
+        <h2>Introduction</h2>
+        <p>Salut tout le monde! Voici un exemple de site web avec Node.js et Express.</p>
+
+        <h2>Liens utiles</h2>
+        <ul>
+            <li><a href="/coucou">Dire Hello World</a></li>
+            <li><a href="/coucou2?name=Florent">Dire Hello à Florent</a></li>
+        </ul>
+
+        <h2>Contact</h2>
+        <p>Si vous avez des questions, n'hésitez pas à <a href="teomorlans@gmail.com">me contacter par e-mail</a>.</p>
+    </div>
+    <div>
+        <ol id="demo"></ol>
+    </div>
+    <form id="MyForm" onsubmit="submitdata(event)" class="form-example" >
+        <div class="form-example">
+          <label> Enter first name: </label>
+          <input type="text" name="Name" id="Name" required />
+        </div>
+        <div class="form-example">
+          <label> Enter last_name: </label>
+          <input type="text" name="last_name" id="last_name" required />
+        </div>
+        <div class="form-example">
+          <input type="submit" value="Add copain :)" />
+        </div>
+      </form>
+    
+</body> 
+
+</html>
